@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.delegate = self;
-    if(IsIos7)
+    if(IsIos7Later)
     {
         //iOS7中使用系统tintColor和barTintColor属性
         self.tabBar.tintColor = kMainProjColor;
