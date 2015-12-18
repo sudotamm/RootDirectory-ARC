@@ -61,10 +61,10 @@
 
 /*
     0 - 标识使用root vc = PannelViewController
-    1 - 标识使用root vc = CommonNaviController - HomeViewController as root
+    1 - 标识使用root vc = RootNaviViewController - HomeViewController as root
     2 - 标识使用root vc = RootTabBarViewController - CommonNaviController - HomeViewController as root
  */
-#define kRootTemplateType 2
+#define kRootTemplateType 1
 
 //apple api
 #define kAppAppleId         @"563444753"

@@ -37,12 +37,12 @@
     return pannelViewController;
 }
 
-- (CommonNaviController *)contentNaviController
+- (RootNaviViewController *)contentNaviController
 {
     if(nil == contentNaviController)
     {
         UIStoryboard *mainStoryBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-        contentNaviController = [mainStoryBoard instantiateViewControllerWithIdentifier:@"CommonNaviController"];
+        contentNaviController = [mainStoryBoard instantiateViewControllerWithIdentifier:@"RootNaviViewController"];
     }
     return contentNaviController;
 }
